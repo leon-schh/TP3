@@ -13,10 +13,10 @@ while fin == False :
         print("Attention ! le début de la location est après la fin ... \n")
     else:
         for i in range(h_debut,h_fin):
-            if (0<=i and i<=7) or (17<=i and i<=24):
+            if (0<=i and i<=6) or (17<=i and i<=24):
                 tarif_1 += 1
                 i += 1
-            elif (7<i and i<17):
+            elif (6<i and i<17):
                 tarif_2 += 1
                 i += 1
         total = tarif_1 + tarif_2*2
